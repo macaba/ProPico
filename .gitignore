@@ -25,3 +25,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+~ProPico.kicad_pcb.lck
+~ProPico.kicad_sch.lck
