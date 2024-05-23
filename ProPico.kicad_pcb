@@ -175,6 +175,7 @@
 	(net 63 "Net-(C6-Pad1)")
 	(net 64 "/DN")
 	(net 65 "/ADC_VREF")
+	(net 66 "/ADC_AVDD")
 	(footprint "W25Q16JVUXIQ_TR:IC_W25Q16JVUXIQ_TR"
 		(layer "F.Cu")
 		(uuid "00737e19-b443-4ed5-974f-fbc436c31055")
@@ -202,7 +203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "W25Q16JVUXIQ_TR:IC_W25Q16JVUXIQ_TR"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -214,7 +215,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -226,7 +227,7 @@
 				)
 			)
 		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -262,7 +263,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOIC*5.23x5.23mm*P1.27mm*")
 		(path "/de6b3201-24ca-4a49-9a48-8ba9074f206f")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_poly
@@ -658,7 +661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -682,7 +685,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -718,9 +721,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/ca14f581-b725-4245-a1da-b6e69fd19a90")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
@@ -892,7 +897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -916,7 +921,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -953,6 +958,7 @@
 			)
 		)
 		(path "/51d2cfee-215a-4b9d-9ea4-5baf139a9086")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1176,7 +1182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1200,7 +1206,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1236,7 +1242,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8082bead-fa56-4716-b835-57403211c1c4")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1409,7 +1417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1433,7 +1441,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1469,7 +1477,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/b5d0d791-9b42-4c22-bff8-11f9119be21d")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1642,7 +1652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1666,7 +1676,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1702,7 +1712,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f8457cc1-aace-4dfe-a2c5-3d88c5d4a4dc")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1876,7 +1888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RP2040:RP2040-QFN-56"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1937,6 +1949,7 @@
 			)
 		)
 		(path "/489944e9-1728-49ca-ba80-fae13f96aef9")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2760,7 +2773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2784,7 +2797,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2820,7 +2833,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/7f92b30c-1ad6-4b35-8575-123fc4fc676c")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2993,7 +3008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3017,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3029,7 +3044,22 @@
 				)
 			)
 		)
+		(property "LCSC" "C25543"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bca3a82-487c-4b23-94cc-f9e1a8999739")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
 		(path "/78d1f302-7533-45cd-96c9-201bf3cfd718")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3202,7 +3232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3226,7 +3256,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3262,7 +3292,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5dd258e2-c50f-4b11-96ae-ee214973979c")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3435,7 +3467,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3459,7 +3491,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3495,7 +3527,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2cc5db9e-ecfb-4fe7-9b1e-d6e514cb763f")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3668,7 +3702,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3692,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 3-pole, open"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3704,9 +3738,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/38325b73-cd11-4edd-acb6-3535538d8dc9")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.75 -1)
 			(end 2.75 -1)
@@ -3928,7 +3964,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3952,7 +3988,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3988,7 +4024,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f1eea970-ccbf-4e3a-a8b0-f935770d72f6")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4162,7 +4200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connector:Pico_20pin"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4186,7 +4224,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4198,9 +4236,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6da45e35-d41c-49ce-af6e-945c8597cad0")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.6002 -2.54)
 			(end -1.6002 50)
@@ -4619,7 +4659,7 @@
 			)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 65 "/ADC_VREF")
+			(net 66 "/ADC_AVDD")
 			(pinfunction "Pin_15")
 			(pintype "passive")
 			(uuid "810e05e3-d28b-4420-920d-a8c8ee603903")
@@ -4633,7 +4673,7 @@
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.45)
-			(net 65 "/ADC_VREF")
+			(net 66 "/ADC_AVDD")
 			(pinfunction "Pin_15")
 			(pintype "passive")
 			(uuid "91870b62-3f80-4b1f-8798-148c1cc1893c")
@@ -4802,7 +4842,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4826,7 +4866,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4862,7 +4902,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d35a896b-f3bd-45e7-9eee-7059fccfd19b")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5036,7 +5078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connector:Pico_4pin"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5060,7 +5102,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5072,9 +5114,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/98091a00-1ec1-4ce0-97c7-813c246a5a8c")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.6002 -6.35)
 			(end -1.6002 5.08)
@@ -5247,7 +5291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5259,7 +5303,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2311091733_UMW-Youtai-Semiconductor-Co---Ltd--AMS1117-3-3_C347222.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5271,7 +5315,7 @@
 				)
 			)
 		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5307,7 +5351,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?223* TO?263* TO?252* TO?220*")
 		(path "/f2347c31-1dd2-4a4a-806d-63f6ea052c9d")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5528,7 +5574,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5552,7 +5598,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5588,7 +5634,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9b60e115-6e3b-4d55-a8bf-7a1dd4a1f102")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5761,7 +5809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5773,7 +5821,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-FM24CL16B_16-Kbit_(2_K_8)_Serial_(I2C)_F-RAM-DataSheet-v13_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec99cb241e9"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5785,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Description" "16Kb serial FRAM nonvolatile Memory, SOIC-8"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5821,7 +5869,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/ae34e8c3-26ea-47fa-80c8-402e5a0644ac")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6083,7 +6133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6107,7 +6157,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6143,7 +6193,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/d6b417c2-8576-4228-af6d-1b9feddcfa1a")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6316,7 +6368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6340,7 +6392,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6376,7 +6428,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5ce8f302-b29f-40ba-82bc-908b56f56dc6")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6549,7 +6603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6573,7 +6627,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6609,7 +6663,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/f0db66ac-29de-43ff-bd37-88e19c54f20d")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6782,7 +6838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6806,7 +6862,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6842,7 +6898,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/81a79092-46d0-4fc2-ad7a-3955fe63fbaf")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7015,7 +7073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7039,7 +7097,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7075,7 +7133,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/15c086e3-24c5-4e36-9c03-7aba28e037b7")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7248,7 +7308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7272,7 +7332,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7308,7 +7368,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/48df2cd0-8ce1-437d-8646-62c759362fbb")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7563,7 +7625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7587,7 +7649,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7623,7 +7685,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Crystal*")
 		(path "/2c7328dc-6719-4261-adcd-559287a9b2d7")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7875,7 +7939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7899,7 +7963,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7935,7 +7999,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/5fd2bb24-0c61-428a-8b0c-0e8fe27299f6")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8108,7 +8174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8132,7 +8198,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8168,9 +8234,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/d59ef1bf-8983-4d4a-89ba-5ee308526297")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -1.66 -0.735)
 			(end -1.66 0.735)
@@ -8344,7 +8412,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "connector:Pico_20pin"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8368,7 +8436,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8380,9 +8448,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7fa479bf-8c2c-4ce9-bfa4-096c4ac2a94f")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.6002 -2.54)
 			(end -1.6002 50)
@@ -8984,7 +9054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9008,7 +9078,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9044,7 +9114,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/66c73dae-fb74-48f8-b2f8-b4c734bdc7e1")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9218,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9230,7 +9302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9242,7 +9314,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9278,7 +9350,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/9d9e1bb5-71c9-40c2-b16d-1f2d659fea89")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9698,7 +9772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9722,7 +9796,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9758,7 +9832,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/fee17f45-0b0a-47a3-ac7c-4e1389a6f420")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9931,7 +10007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9955,7 +10031,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9991,7 +10067,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/02b794bc-63a2-4699-bbae-a01606829ca4")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10164,7 +10242,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10188,7 +10266,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10224,7 +10302,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/957367ff-0215-4b26-8050-2b8b933b8618")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10397,7 +10477,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10421,7 +10501,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10457,7 +10537,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/4ac10c3d-8d8d-41d5-8817-813ccd8719fb")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10630,7 +10712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10642,7 +10724,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10654,7 +10736,7 @@
 				)
 			)
 		)
-		(property "Description" "3.000V Precision Micropower Shunt Voltage Reference, SOT-23"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10690,7 +10772,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23*")
 		(path "/ba1f6379-2070-43cb-a750-bde440560759")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10902,7 +10986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10926,7 +11010,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10938,21 +11022,11 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a8573aa-8453-44c0-bf82-32d50a36de98")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
+		(property ki_fp_filters "R_*")
 		(path "/3fb95b04-640e-4a69-be42-7105c6ce44d4")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.167621 -0.38)
 			(end 0.167621 -0.38)
@@ -11123,7 +11197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11147,7 +11221,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11184,6 +11258,7 @@
 			)
 		)
 		(path "/83cedd03-3bc2-4cbb-9368-bc17812bb690")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11407,7 +11482,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11431,7 +11506,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11467,7 +11542,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/a113d3e6-bd78-4d50-80e6-6c8c59fab2fd")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11640,7 +11717,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11664,7 +11741,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11700,7 +11777,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/02c55e93-d469-46ac-a4fe-938dccc433ab")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11873,7 +11952,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11897,7 +11976,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11933,7 +12012,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b460c9c8-d79e-426a-94ee-11cdddda4709")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12106,7 +12187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12130,7 +12211,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12166,7 +12247,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/b8203564-13a8-4579-8d5f-aabcaad75607")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12339,7 +12422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12363,7 +12446,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12399,7 +12482,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/2e343e88-c253-43fe-b7ef-0f3a142ae4bc")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12572,7 +12657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12596,7 +12681,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12632,7 +12717,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/3cac2ea1-f3b0-4e55-8837-903c982ddf90")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12805,7 +12892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12829,7 +12916,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12865,7 +12952,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/5db39d66-4d81-4061-98e6-5ce94298ec18")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13038,7 +13127,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13062,7 +13151,7 @@
 				)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13074,9 +13163,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/c27c0e9d-5662-40f1-a8d5-f468097310c2")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.4 1)
 			(end -1.4 -1)
@@ -13233,7 +13324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13257,7 +13348,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13293,7 +13384,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/18ca32ca-dd24-4b3f-aa5d-16b162fcec5b")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13468,7 +13561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13492,7 +13585,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13528,7 +13621,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/457793e5-bddd-44ba-ad5a-2cfecb588936")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13704,7 +13799,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13728,7 +13823,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13740,9 +13835,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/03407269-b7fd-424d-a672-848da1378e8a")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.95 0.95)
 			(end 0.95 -0.95)
@@ -13877,7 +13974,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13901,7 +13998,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13913,9 +14010,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/627679ec-e9c0-4d8b-b1fd-1ca8b220b662")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.95 0.95)
 			(end 0.95 -0.95)
@@ -14050,7 +14149,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14074,7 +14173,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14086,9 +14185,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/9c6f931b-0f46-43ca-adf6-8d3ae39bd88f")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.95 0.95)
 			(end 0.95 -0.95)
@@ -14223,7 +14324,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14247,7 +14348,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14259,9 +14360,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/7c00c935-4ac5-40ee-a08f-eb3a6c87af8e")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.95 0.95)
 			(end 0.95 -0.95)
@@ -14364,353 +14467,6 @@
 			(uuid "d6d64687-ac1f-435e-893c-101c4eb882f5")
 		)
 	)
-	(footprint "LOGO"
-		(layer "B.Cu")
-		(uuid "bea37e51-419b-4ecc-9227-cb1106cc1a72")
-		(at 102.9716 80.9498 180)
-		(property "Reference" "G***"
-			(at 0 0 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "20ed4c4b-6e8b-4cf3-a5ce-f108e3eb1099")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "LOGO"
-			(at 0.75 0 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "55c29ca8-c6e0-4548-86e4-3d4afed82ecf")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ef43b679-dfdd-4352-af7f-dd460765c2a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b952440-62fb-4315-90f0-2c767d68a1a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a57621f3-f049-4cd2-860b-8c16e550204a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(fp_poly
-			(pts
-				(xy -1.305086 -1.110825) (xy -1.188954 -1.12141) (xy -1.084824 -1.143038) (xy -0.992003 -1.175949)
-				(xy -0.909799 -1.220388) (xy -0.841006 -1.273416) (xy -0.792566 -1.328105) (xy -0.755703 -1.392554)
-				(xy -0.731555 -1.463534) (xy -0.721257 -1.537814) (xy -0.724672 -1.604167) (xy -0.740586 -1.675049)
-				(xy -0.766643 -1.735471) (xy -0.804022 -1.786682) (xy -0.853905 -1.829935) (xy -0.917472 -1.866479)
-				(xy -0.995903 -1.897565) (xy -1.004167 -1.900279) (xy -1.028644 -1.907481) (xy -1.053128 -1.912758)
-				(xy -1.081077 -1.916473) (xy -1.115948 -1.918987) (xy -1.161199 -1.920663) (xy -1.208334 -1.921663)
-				(xy -1.287613 -1.921917) (xy -1.352923 -1.919736) (xy -1.403181 -1.915165) (xy -1.416667 -1.913071)
-				(xy -1.508056 -1.892796) (xy -1.594608 -1.8658) (xy -1.673964 -1.833184) (xy -1.743766 -1.796052)
-				(xy -1.801654 -1.755504) (xy -1.845119 -1.712828) (xy -1.885289 -1.652094) (xy -1.912211 -1.585868)
-				(xy -1.926009 -1.516644) (xy -1.926808 -1.446915) (xy -1.914733 -1.379175) (xy -1.889907 -1.315916)
-				(xy -1.852457 -1.259633) (xy -1.820834 -1.227474) (xy -1.762199 -1.186839) (xy -1.689761 -1.154567)
-				(xy -1.604222 -1.130816) (xy -1.506286 -1.115745) (xy -1.396658 -1.109514)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill solid)
-			(layer "B.SilkS")
-			(uuid "0fbbecfa-5fbd-47c5-ac2f-1970a8a13f2f")
-		)
-		(fp_poly
-			(pts
-				(xy 0.531599 -0.211831) (xy 0.552751 -0.214181) (xy 0.574424 -0.217081) (xy 0.59947 -0.221022) (xy 0.630736 -0.226491)
-				(xy 0.671074 -0.233977) (xy 0.723332 -0.243971) (xy 0.758333 -0.250741) (xy 0.787569 -0.258744)
-				(xy 0.824674 -0.27214) (xy 0.862849 -0.28841) (xy 0.87291 -0.293189) (xy 0.929871 -0.327362) (xy 0.982951 -0.371204)
-				(xy 1.030138 -0.421982) (xy 1.069416 -0.476965) (xy 1.098773 -0.533419) (xy 1.116195 -0.588614)
-				(xy 1.120207 -0.628738) (xy 1.111427 -0.690221) (xy 1.087896 -0.748159) (xy 1.051508 -0.799908)
-				(xy 1.004153 -0.842821) (xy 0.947723 -0.874254) (xy 0.943346 -0.876009) (xy 0.893247 -0.889778)
-				(xy 0.832523 -0.897298) (xy 0.766027 -0.898505) (xy 0.698611 -0.893338) (xy 0.635126 -0.881733)
-				(xy 0.6286 -0.880063) (xy 0.516828 -0.845474) (xy 0.420533 -0.80484) (xy 0.339725 -0.758174) (xy 0.27442 -0.705486)
-				(xy 0.224629 -0.646788) (xy 0.190367 -0.582092) (xy 0.171647 -0.511409) (xy 0.168336 -0.478407)
-				(xy 0.169171 -0.423127) (xy 0.179482 -0.377448) (xy 0.201024 -0.3362) (xy 0.228129 -0.302246) (xy 0.266729 -0.270175)
-				(xy 0.317601 -0.243806) (xy 0.376995 -0.224258) (xy 0.441158 -0.212648) (xy 0.506339 -0.210093)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill solid)
-			(layer "B.SilkS")
-			(uuid "3ebeebb0-ea91-4ac4-b676-d345a551bd1b")
-		)
-		(fp_poly
-			(pts
-				(xy -0.587806 -2.241453) (xy -0.522748 -2.258726) (xy -0.466481 -2.285874) (xy -0.420605 -2.32285)
-				(xy -0.387809 -2.367577) (xy -0.375597 -2.391943) (xy -0.369103 -2.412572) (xy -0.367104 -2.436079)
-				(xy -0.368376 -2.469081) (xy -0.368546 -2.471769) (xy -0.376313 -2.52535) (xy -0.39341 -2.575437)
-				(xy -0.421367 -2.624892) (xy -0.461714 -2.676574) (xy -0.499957 -2.71744) (xy -0.584188 -2.793665)
-				(xy -0.67071 -2.854104) (xy -0.7609 -2.899611) (xy -0.834762 -2.925314) (xy -0.876815 -2.934298)
-				(xy -0.92952 -2.941153) (xy -0.987459 -2.945586) (xy -1.045214 -2.947306) (xy -1.097368 -2.946022)
-				(xy -1.1375 -2.941625) (xy -1.2022 -2.925801) (xy -1.253089 -2.903675) (xy -1.292261 -2.873925)
-				(xy -1.321811 -2.835229) (xy -1.329878 -2.820126) (xy -1.341749 -2.793186) (xy -1.34791 -2.76952)
-				(xy -1.349629 -2.741975) (xy -1.348728 -2.713733) (xy -1.345543 -2.677471) (xy -1.338808 -2.647215)
-				(xy -1.326429 -2.615526) (xy -1.313737 -2.589399) (xy -1.277519 -2.526564) (xy -1.23628 -2.472854)
-				(xy -1.186946 -2.425183) (xy -1.126445 -2.380463) (xy -1.073215 -2.347765) (xy -0.988994 -2.304821)
-				(xy -0.903968 -2.272028) (xy -0.819737 -2.249341) (xy -0.7379 -2.236714) (xy -0.660057 -2.2341)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill solid)
-			(layer "B.SilkS")
-			(uuid "84cecd90-12f8-4062-b832-5a30dc2a1bf6")
-		)
-		(fp_poly
-			(pts
-				(xy -0.871618 -0.039755) (xy -0.812141 -0.051315) (xy -0.748231 -0.070505) (xy -0.713564 -0.082937)
-				(xy -0.647804 -0.110625) (xy -0.591532 -0.142129) (xy -0.538973 -0.181171) (xy -0.486682 -0.229167)
-				(xy -0.436646 -0.283994) (xy -0.400178 -0.337525) (xy -0.375086 -0.393887) (xy -0.359179 -0.45721)
-				(xy -0.356373 -0.47466) (xy -0.351536 -0.555347) (xy -0.361787 -0.629218) (xy -0.387386 -0.697062)
-				(xy -0.428591 -0.759669) (xy -0.461714 -0.795834) (xy -0.527956 -0.850557) (xy -0.599031 -0.890276)
-				(xy -0.673649 -0.914593) (xy -0.750518 -0.923115) (xy -0.828346 -0.915446) (xy -0.842364 -0.912314)
-				(xy -0.904096 -0.892808) (xy -0.967398 -0.863433) (xy -1.03428 -0.823025) (xy -1.106751 -0.770419)
-				(xy -1.156716 -0.730042) (xy -1.223496 -0.666602) (xy -1.275856 -0.599029) (xy -1.316016 -0.524104)
-				(xy -1.33714 -0.468382) (xy -1.345277 -0.435577) (xy -1.348982 -0.397783) (xy -1.348786 -0.349436)
-				(xy -1.348709 -0.34733) (xy -1.346439 -0.307057) (xy -1.342207 -0.277037) (xy -1.334553 -0.250865)
-				(xy -1.322018 -0.222136) (xy -1.31855 -0.215017) (xy -1.282454 -0.158188) (xy -1.235379 -0.109272)
-				(xy -1.181008 -0.071752) (xy -1.153105 -0.058694) (xy -1.125773 -0.049359) (xy -1.096262 -0.042892)
-				(xy -1.060011 -0.038585) (xy -1.012457 -0.035729) (xy -1.002746 -0.03533) (xy -0.93303 -0.034776)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill solid)
-			(layer "B.SilkS")
-			(uuid "3822c800-e01a-4af2-82be-6ae9217066b2")
-		)
-		(fp_poly
-			(pts
-				(xy 0.299214 -1.041265) (xy 0.426433 -1.057297) (xy 0.559152 -1.083465) (xy 0.670833 -1.112402)
-				(xy 0.735836 -1.134281) (xy 0.800688 -1.161981) (xy 0.862178 -1.193687) (xy 0.917096 -1.227582)
-				(xy 0.962232 -1.261851) (xy 0.994376 -1.294678) (xy 0.995346 -1.295935) (xy 1.025493 -1.342048)
-				(xy 1.043865 -1.388155) (xy 1.052371 -1.440145) (xy 1.053536 -1.47542) (xy 1.052766 -1.513016) (xy 1.049529 -1.541047)
-				(xy 1.042236 -1.566589) (xy 1.029295 -1.596723) (xy 1.023575 -1.608754) (xy 1.002419 -1.649113)
-				(xy 0.979669 -1.683673) (xy 0.952572 -1.715383) (xy 0.918376 -1.747195) (xy 0.874326 -1.782057)
-				(xy 0.83545 -1.810358) (xy 0.795819 -1.839207) (xy 0.756838 -1.868709) (xy 0.722676 -1.895639) (xy 0.697498 -1.916774)
-				(xy 0.694989 -1.919031) (xy 0.669476 -1.943781) (xy 0.650146 -1.967318) (xy 0.635922 -1.992707)
-				(xy 0.625723 -2.02301) (xy 0.618472 -2.061292) (xy 0.613088 -2.110617) (xy 0.609241 -2.1625) (xy 0.605389 -2.211671)
-				(xy 0.600624 -2.258387) (xy 0.595439 -2.298575) (xy 0.590329 -2.328165) (xy 0.58802 -2.3375) (xy 0.560354 -2.402409)
-				(xy 0.51933 -2.457904) (xy 0.465763 -2.503341) (xy 0.400465 -2.538078) (xy 0.324251 -2.561473) (xy 0.298221 -2.566373)
-				(xy 0.269087 -2.570697) (xy 0.244202 -2.572996) (xy 0.218761 -2.573256) (xy 0.187958 -2.571463)
-				(xy 0.146989 -2.567604) (xy 0.130651 -2.5659) (xy 0.028885 -2.548791) (xy -0.064477 -2.519277) (xy -0.151712 -2.476259)
-				(xy -0.235098 -2.418642) (xy -0.30699 -2.3551) (xy -0.380843 -2.276816) (xy -0.445668 -2.193495)
-				(xy -0.505596 -2.1) (xy -0.558517 -1.997188) (xy -0.59503 -1.896468) (xy -0.615176 -1.797234) (xy -0.618994 -1.698877)
-				(xy -0.606523 -1.600791) (xy -0.577804 -1.502368) (xy -0.54891 -1.434725) (xy -0.511025 -1.371708)
-				(xy -0.458225 -1.308109) (xy -0.392111 -1.245579) (xy -0.314286 -1.185773) (xy -0.295123 -1.172726)
-				(xy -0.226079 -1.129511) (xy -0.163113 -1.096873) (xy -0.101169 -1.072984) (xy -0.035188 -1.056021)
-				(xy 0.039886 -1.044158) (xy 0.070664 -1.040728) (xy 0.179842 -1.035648)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill solid)
-			(layer "B.SilkS")
-			(uuid "3b824978-f9c5-4628-9034-26afd290a553")
-		)
-		(fp_poly
-			(pts
-				(xy 0.004534 3.834421) (xy 0.016954 3.813618) (xy 0.036834 3.779838) (xy 0.063748 3.733816) (xy 0.097271 3.676285)
-				(xy 0.136977 3.607982) (xy 0.18244 3.529641) (xy 0.233235 3.441996) (xy 0.288935 3.345781) (xy 0.349116 3.241733)
-				(xy 0.41335 3.130585) (xy 0.481214 3.013072) (xy 0.55228 2.889929) (xy 0.626124 2.76189) (xy 0.702319 2.62969)
-				(xy 0.725 2.590323) (xy 0.802826 2.455234) (xy 0.879011 2.323014) (xy 0.953081 2.194481) (xy 1.024565 2.070451)
-				(xy 1.092992 1.951744) (xy 1.15789 1.839176) (xy 1.218787 1.733566) (xy 1.275212 1.635732) (xy 1.326693 1.54649)
-				(xy 1.372758 1.46666) (xy 1.412935 1.397058) (xy 1.446754 1.338502) (xy 1.473742 1.291811) (xy 1.493428 1.257802)
-				(xy 1.505339 1.237293) (xy 1.506446 1.235397) (xy 1.56706 1.131747) (xy 1.477172 1.034624) (xy 1.439253 0.993446)
-				(xy 1.398643 0.949004) (xy 1.359706 0.906091) (xy 1.326801 0.869501) (xy 1.320725 0.862686) (xy 1.291969 0.830885)
-				(xy 1.255219 0.79102) (xy 1.214099 0.746977) (xy 1.17223 0.702646) (xy 1.145833 0.674999) (xy 1.107132 0.634323)
-				(xy 1.066122 0.590605) (xy 1.024362 0.545569) (xy 0.983409 0.500938) (xy 0.944821 0.458436) (xy 0.910155 0.419786)
-				(xy 0.88097 0.386713) (xy 0.858823 0.36094) (xy 0.845272 0.344192) (xy 0.841666 0.338424) (xy 0.849035 0.335142)
-				(xy 0.867304 0.333388) (xy 0.872916 0.3333) (xy 0.909309 0.330911) (xy 0.958056 0.324312) (xy 1.015602 0.314264)
-				(xy 1.07839 0.301524) (xy 1.142867 0.286851) (xy 1.205476 0.271005) (xy 1.262664 0.254745) (xy 1.304166 0.241231)
-				(xy 1.405042 0.198856) (xy 1.501548 0.145098) (xy 1.589127 0.082683) (xy 1.633319 0.044266) (xy 1.658974 0.019427)
-				(xy 1.674112 0.002186) (xy 1.680864 -0.010715) (xy 1.681359 -0.022533) (xy 1.680306 -0.027592) (xy 1.669244 -0.045118)
-				(xy 1.650455 -0.050659) (xy 1.627832 -0.044175) (xy 1.607702 -0.028336) (xy 1.58275 -0.005029) (xy 1.547639 0.023303)
-				(xy 1.506739 0.053518) (xy 1.46442 0.082476) (xy 1.425051 0.107036) (xy 1.400956 0.120249) (xy 1.308959 0.16032)
-				(xy 1.20125 0.196157) (xy 1.078271 0.227627) (xy 0.983333 0.246986) (xy 0.9232 0.255147) (xy 0.851323 0.260134)
-				(xy 0.77231 0.261986) (xy 0.690771 0.260743) (xy 0.611315 0.256446) (xy 0.538551 0.249133) (xy 0.497035 0.242783)
-				(xy 0.417169 0.225861) (xy 0.340829 0.204879) (xy 0.271995 0.181107) (xy 0.214645 0.155813) (xy 0.200173 0.148062)
-				(xy 0.1418 0.106864) (xy 0.08705 0.052728) (xy 0.038498 -0.01065) (xy -0.001283 -0.079573) (xy -0.029721 -0.150346)
-				(xy -0.041517 -0.199107) (xy -0.046287 -0.269127) (xy -0.039069 -0.347333) (xy -0.02047 -0.430994)
-				(xy 0.008902 -0.517382) (xy 0.048439 -0.603766) (xy 0.048647 -0.604167) (xy 0.092858 -0.671643)
-				(xy 0.152091 -0.733844) (xy 0.225376 -0.790199) (xy 0.311746 -0.840132) (xy 0.410231 -0.88307) (xy 0.519862 -0.918441)
-				(xy 0.618744 -0.941663) (xy 0.656497 -0.952413) (xy 0.681077 -0.966378) (xy 0.691569 -0.98237) (xy 0.687057 -0.999202)
-				(xy 0.672873 -1.011929) (xy 0.662198 -1.017455) (xy 0.649469 -1.019556) (xy 0.630752 -1.018062)
-				(xy 0.602107 -1.012804) (xy 0.579123 -1.007904) (xy 0.448842 -0.973695) (xy 0.332359 -0.93091) (xy 0.229814 -0.879639)
-				(xy 0.141342 -0.819971) (xy 0.06708 -0.751994) (xy 0.007164 -0.675797) (xy -0.027877 -0.614128)
-				(xy -0.06218 -0.538057) (xy -0.086764 -0.469585) (xy -0.102967 -0.403843) (xy -0.112128 -0.33596)
-				(xy -0.114516 -0.299029) (xy -0.114039 -0.216542) (xy -0.103757 -0.143699) (xy -0.082366 -0.075807)
-				(xy -0.048562 -0.008175) (xy -0.021977 0.033936) (xy -0.00643 0.057761) (xy 0.004503 0.075925) (xy 0.008333 0.084125)
-				(xy 0.001185 0.092685) (xy -0.018978 0.107476) (xy -0.050232 0.127338) (xy -0.090656 0.151108) (xy -0.138326 0.177626)
-				(xy -0.191319 0.205729) (xy -0.202631 0.211562) (xy -0.348346 0.277776) (xy -0.500366 0.330553)
-				(xy -0.656044 0.369241) (xy -0.812735 0.393188) (xy -0.967792 0.401743) (xy -0.975 0.401755) (xy -1.090194 0.396207)
-				(xy -1.194681 0.379199) (xy -1.29058 0.349915) (xy -1.380008 0.30754) (xy -1.465084 0.25126) (xy -1.546175 0.181926)
-				(xy -1.598607 0.12513) (xy -1.637446 0.066063) (xy -1.663884 0.001785) (xy -1.679114 -0.070644)
-				(xy -1.684328 -0.154163) (xy -1.684347 -0.158673) (xy -1.679755 -0.248246) (xy -1.664823 -0.327376)
-				(xy -1.63834 -0.399565) (xy -1.599093 -0.468317) (xy -1.558626 -0.522069) (xy -1.516431 -0.56926)
-				(xy -1.46318 -0.622895) (xy -1.401851 -0.680426) (xy -1.335419 -0.739302) (xy -1.266861 -0.796974)
-				(xy -1.199153 -0.850893) (xy -1.135271 -0.89851) (xy -1.078193 -0.937275) (xy -1.0625 -0.947003)
-				(xy -1.0226 -0.968992) (xy -0.971902 -0.993887) (xy -0.915459 -1.019436) (xy -0.858322 -1.04339)
-				(xy -0.805542 -1.063499) (xy -0.785504 -1.070384) (xy -0.753891 -1.081493) (xy -0.728684 -1.091674)
-				(xy -0.713879 -1.09926) (xy -0.711803 -1.101129) (xy -0.709359 -1.118482) (xy -0.716307 -1.13835)
-				(xy -0.72934 -1.152455) (xy -0.732931 -1.154039) (xy -0.75015 -1.153811) (xy -0.779705 -1.147293)
-				(xy -0.818905 -1.135402) (xy -0.86506 -1.119058) (xy -0.915477 -1.099177) (xy -0.967467 -1.076677)
-				(xy -0.989146 -1.066657) (xy -1.082506 -1.017856) (xy -1.176067 -0.959134) (xy -1.271512 -0.889248)
-				(xy -1.37052 -0.806956) (xy -1.474773 -0.711016) (xy -1.489136 -0.697149) (xy -1.599411 -0.590131)
-				(xy -1.689289 -0.599713) (xy -1.802916 -0.615221) (xy -1.902297 -0.63631) (xy -1.989108 -0.663623)
-				(xy -2.065023 -0.697806) (xy -2.131715 -0.739504) (xy -2.190859 -0.789361) (xy -2.196757 -0.795153)
-				(xy -2.243231 -0.846905) (xy -2.279062 -0.90024) (xy -2.305448 -0.958227) (xy -2.323588 -1.023933)
-				(xy -2.334683 -1.100428) (xy -2.338729 -1.158334) (xy -2.337801 -1.265038) (xy -2.325229 -1.367577)
-				(xy -2.301603 -1.463447) (xy -2.267515 -1.550144) (xy -2.231219 -1.614063) (xy -2.18156 -1.677142)
-				(xy -2.11817 -1.739971) (xy -2.043897 -1.800616) (xy -1.96159 -1.857144) (xy -1.8741 -1.907622)
-				(xy -1.784275 -1.950117) (xy -1.694966 -1.982694) (xy -1.682401 -1.98643) (xy -1.627549 -2.000749)
-				(xy -1.573762 -2.0113) (xy -1.517082 -2.018529) (xy -1.453552 -2.022883) (xy -1.379215 -2.024807)
-				(xy -1.340577 -2.025) (xy -1.254242 -2.023763) (xy -1.182012 -2.01989) (xy -1.1215 -2.013141) (xy -1.070316 -2.003278)
-				(xy -1.040018 -1.994795) (xy -1.005197 -1.987876) (xy -0.981058 -1.992421) (xy -0.968421 -2.00814)
-				(xy -0.966667 -2.020834) (xy -0.968966 -2.033881) (xy -0.977415 -2.044679) (xy -0.994345 -2.054419)
-				(xy -1.022086 -2.064297) (xy -1.062968 -2.075504) (xy -1.083334 -2.08058) (xy -1.135939 -2.096643)
-				(xy -1.196422 -2.120238) (xy -1.26013 -2.149099) (xy -1.322412 -2.180963) (xy -1.378618 -2.213565)
-				(xy -1.424095 -2.244642) (xy -1.430183 -2.249416) (xy -1.485147 -2.303672) (xy -1.532764 -2.371735)
-				(xy -1.571892 -2.451947) (xy -1.575246 -2.460448) (xy -1.602536 -2.55038) (xy -1.614396 -2.637523)
-				(xy -1.611305 -2.720707) (xy -1.593741 -2.798759) (xy -1.562183 -2.870511) (xy -1.517109 -2.93479)
-				(xy -1.458998 -2.990427) (xy -1.388329 -3.036251) (xy -1.328968 -3.062877) (xy -1.273984 -3.080606)
-				(xy -1.21967 -3.091458) (xy -1.164054 -3.09514) (xy -1.105161 -3.091356) (xy -1.041018 -3.079815)
-				(xy -0.969652 -3.060221) (xy -0.889088 -3.032281) (xy -0.797354 -2.995701) (xy -0.754167 -2.977323)
-				(xy -0.668702 -2.941744) (xy -0.576203 -2.905645) (xy -0.479541 -2.869983) (xy -0.381586 -2.835715)
-				(xy -0.285207 -2.8038) (xy -0.193275 -2.775194) (xy -0.10866 -2.750855) (xy -0.034232 -2.731741)
-				(xy 0.0125 -2.721543) (xy 0.039966 -2.716597) (xy 0.080638 -2.709849) (xy 0.131216 -2.701818) (xy 0.188403 -2.693024)
-				(xy 0.248897 -2.683985) (xy 0.283333 -2.678959) (xy 0.383714 -2.664329) (xy 0.469441 -2.651501)
-				(xy 0.542383 -2.640079) (xy 0.604406 -2.62967) (xy 0.65738 -2.619879) (xy 0.70317 -2.61031) (xy 0.743646 -2.600568)
-				(xy 0.780674 -2.59026) (xy 0.816123 -2.578989) (xy 0.851861 -2.566362) (xy 0.889754 -2.551983) (xy 0.896634 -2.5493)
-				(xy 0.966144 -2.518147) (xy 1.030199 -2.480494) (xy 1.091157 -2.434406) (xy 1.151375 -2.377944)
-				(xy 1.21321 -2.309173) (xy 1.260789 -2.25) (xy 1.292719 -2.209133) (xy 1.327421 -2.165338) (xy 1.360371 -2.124291)
-				(xy 1.383599 -2.095834) (xy 1.478636 -1.976816) (xy 1.578206 -1.844561) (xy 1.680704 -1.701325)
-				(xy 1.784527 -1.549365) (xy 1.888069 -1.390938) (xy 1.916724 -1.345834) (xy 1.987411 -1.235462)
-				(xy 2.055711 -1.131935) (xy 2.119951 -1.037742) (xy 2.178458 -0.955373) (xy 2.188491 -0.941667)
-				(xy 2.218681 -0.899463) (xy 2.251646 -0.851495) (xy 2.28231 -0.805219) (xy 2.296266 -0.783334) (xy 2.319055 -0.747959)
-				(xy 2.348501 -0.703808) (xy 2.381429 -0.655561) (xy 2.414663 -0.607898) (xy 2.428538 -0.588356)
-				(xy 2.511301 -0.472545) (xy 2.528254 -0.517523) (xy 2.534313 -0.529802) (xy 2.548251 -0.555679)
-				(xy 2.569599 -0.594327) (xy 2.597885 -0.644918) (xy 2.632639 -0.706626) (xy 2.673391 -0.778624)
-				(xy 2.71967 -0.860086) (xy 2.771005 -0.950185) (xy 2.826925 -1.048094) (xy 2.886961 -1.152986) (xy 2.950641 -1.264035)
-				(xy 3.017496 -1.380414) (xy 3.087054 -1.501295) (xy 3.158845 -1.625854) (xy 3.177584 -1.658334)
-				(xy 3.249717 -1.783347) (xy 3.319692 -1.904651) (xy 3.387043 -2.021438) (xy 3.451306 -2.1329) (xy 3.512016 -2.23823)
-				(xy 3.568708 -2.33662) (xy 3.620916 -2.427264) (xy 3.668177 -2.509353) (xy 3.710025 -2.582081) (xy 3.745995 -2.64464)
-				(xy 3.775623 -2.696222) (xy 3.798443 -2.736021) (xy 3.813991 -2.763229) (xy 3.821801 -2.777038)
-				(xy 3.822542 -2.7784) (xy 3.835122 -2.802632) (xy 3.798811 -2.781569) (xy 3.787259 -2.774883) (xy 3.762156 -2.760365)
-				(xy 3.72438 -2.738525) (xy 3.674811 -2.709868) (xy 3.614328 -2.674904) (xy 3.543809 -2.634141) (xy 3.464133 -2.588087)
-				(xy 3.376179 -2.537249) (xy 3.280827 -2.482135) (xy 3.178955 -2.423255) (xy 3.071442 -2.361115)
-				(xy 2.959166 -2.296224) (xy 2.843008 -2.22909) (xy 2.8 -2.204234) (xy 2.683199 -2.136715) (xy 2.570322 -2.071435)
-				(xy 2.462216 -2.008885) (xy 2.359727 -1.949558) (xy 2.263703 -1.893943) (xy 2.174991 -1.842533)
-				(xy 2.094439 -1.795819) (xy 2.022893 -1.754293) (xy 1.961202 -1.718445) (xy 1.910211 -1.688768)
-				(xy 1.87077 -1.665752) (xy 1.843724 -1.64989) (xy 1.829921 -1.641672) (xy 1.828293 -1.640632) (xy 1.819228 -1.643912)
-				(xy 1.802139 -1.661798) (xy 1.777027 -1.694289) (xy 1.75664 -1.722901) (xy 1.728436 -1.762488) (xy 1.692126 -1.812124)
-				(xy 1.64998 -1.868819) (xy 1.60427 -1.929579) (xy 1.557268 -1.991413) (xy 1.511244 -2.05133) (xy 1.46847 -2.106337)
-				(xy 1.431216 -2.153443) (xy 1.408353 -2.181681) (xy 1.386713 -2.208613) (xy 1.369841 -2.230767)
-				(xy 1.360075 -2.245014) (xy 1.358578 -2.248348) (xy 1.365696 -2.253111) (xy 1.386459 -2.265722)
-				(xy 1.420066 -2.285714) (xy 1.465716 -2.312623) (xy 1.52261 -2.345982) (xy 1.589947 -2.385324) (xy 1.666926 -2.430185)
-				(xy 1.752747 -2.480098) (xy 1.846609 -2.534597) (xy 1.947713 -2.593216) (xy 2.055258 -2.65549) (xy 2.168442 -2.720952)
-				(xy 2.286467 -2.789136) (xy 2.408531 -2.859577) (xy 2.413508 -2.862447) (xy 2.53578 -2.932994) (xy 2.654088 -3.001307)
-				(xy 2.767631 -3.066921) (xy 2.875602 -3.129368) (xy 2.977199 -3.188182) (xy 3.071617 -3.242896)
-				(xy 3.158053 -3.293043) (xy 3.235702 -3.338157) (xy 3.303761 -3.377771) (xy 3.361426 -3.411417)
-				(xy 3.407892 -3.43863) (xy 3.442356 -3.458942) (xy 3.464014 -3.471888) (xy 3.472062 -3.476999) (xy 3.472088 -3.477031)
-				(xy 3.464098 -3.477444) (xy 3.43996 -3.47785) (xy 3.400192 -3.478249) (xy 3.345312 -3.478638) (xy 3.275839 -3.479019)
-				(xy 3.192291 -3.479389) (xy 3.095187 -3.479748) (xy 2.985043 -3.480095) (xy 2.86238 -3.480429) (xy 2.727715 -3.480749)
-				(xy 2.581567 -3.481055) (xy 2.424453 -3.481346) (xy 2.256893 -3.48162) (xy 2.079404 -3.481877) (xy 1.892506 -3.482116)
-				(xy 1.696715 -3.482337) (xy 1.492551 -3.482537) (xy 1.280532 -3.482717) (xy 1.061176 -3.482876)
-				(xy 0.835002 -3.483013) (xy 0.602527 -3.483127) (xy 0.364271 -3.483216) (xy 0.120751 -3.483281)
-				(xy -0.127514 -3.483321) (xy -0.374509 -3.483334) (xy -0.626951 -3.483323) (xy -0.875171 -3.483293)
-				(xy -1.118649 -3.483243) (xy -1.356866 -3.483174) (xy -1.589304 -3.483087) (xy -1.815443 -3.482982)
-				(xy -2.034763 -3.482861) (xy -2.246747 -3.482723) (xy -2.450875 -3.482569) (xy -2.646628 -3.482401)
-				(xy -2.833488 -3.482218) (xy -3.010934 -3.482022) (xy -3.178448 -3.481812) (xy -3.335511 -3.48159)
-				(xy -3.481604 -3.481357) (xy -3.616208 -3.481112) (xy -3.738804 -3.480857) (xy -3.848873 -3.480592)
-				(xy -3.945895 -3.480318) (xy -4.029352 -3.480036) (xy -4.098726 -3.479745) (xy -4.153495 -3.479448)
-				(xy -4.193143 -3.479143) (xy -4.217149 -3.478833) (xy -4.225 -3.478526) (xy -4.220897 -3.470941)
-				(xy -4.208851 -3.449613) (xy -4.189258 -3.415227) (xy -4.162513 -3.368473) (xy -4.129011 -3.310035)
-				(xy -4.089147 -3.240603) (xy -4.043319 -3.160862) (xy -3.991919 -3.071499) (xy -3.935345 -2.973203)
-				(xy -3.873991 -2.86666) (xy -3.808253 -2.752557) (xy -3.738525 -2.631581) (xy -3.665205 -2.50442)
-				(xy -3.588686 -2.37176) (xy -3.509365 -2.234288) (xy -3.427637 -2.092693) (xy -3.3942 -2.034776)
-				(xy -3.281869 -1.840219) (xy -3.177572 -1.659578) (xy -3.081008 -1.492334) (xy -2.991879 -1.337969)
-				(xy -2.909882 -1.195964) (xy -2.834719 -1.065801) (xy -2.766089 -0.946962) (xy -2.703693 -0.838928)
-				(xy -2.647229 -0.741182) (xy -2.596399 -0.653204) (xy -2.550901 -0.574478) (xy -2.510437 -0.504484)
-				(xy -2.474705 -0.442704) (xy -2.443405 -0.38862) (xy -2.416238 -0.341713) (xy -2.392904 -0.301466)
-				(xy -2.373102 -0.26736) (xy -2.356532 -0.238877) (xy -2.342895 -0.215498) (xy -2.33189 -0.196706)
-				(xy -2.323216 -0.181982) (xy -2.316575 -0.170807) (xy -2.311665 -0.162664) (xy -2.308187 -0.157034)
-				(xy -2.305841 -0.153398) (xy -2.304327 -0.15124) (xy -2.303344 -0.150039) (xy -2.302592 -0.149279)
-				(xy -2.302301 -0.148994) (xy -2.293959 -0.151673) (xy -2.272751 -0.161956) (xy -2.240187 -0.179019)
-				(xy -2.19778 -0.202035) (xy -2.147039 -0.230179) (xy -2.089476 -0.262624) (xy -2.0266 -0.298544)
-				(xy -1.9875 -0.321104) (xy -1.922199 -0.358861) (xy -1.861397 -0.393907) (xy -1.8066 -0.425382)
-				(xy -1.759312 -0.452426) (xy -1.721037 -0.474181) (xy -1.693281 -0.489788) (xy -1.677547 -0.498388)
-				(xy -1.674515 -0.499826) (xy -1.675784 -0.493028) (xy -1.68314 -0.474713) (xy -1.695179 -0.448252)
-				(xy -1.701344 -0.435417) (xy -1.731129 -0.360111) (xy -1.74977 -0.278108) (xy -1.757869 -0.186452)
-				(xy -1.758334 -0.155851) (xy -1.753557 -0.073349) (xy -1.739776 0.003665) (xy -1.717814 0.071141)
-				(xy -1.70768 0.093075) (xy -1.680461 0.137954) (xy -1.644031 0.185954) (xy -1.603176 0.231147) (xy -1.574483 0.257962)
-				(xy -1.549968 0.281054) (xy -1.539696 0.296304) (xy -1.54078 0.302446) (xy -1.550061 0.308807) (xy -1.571731 0.322267)
-				(xy -1.603743 0.341596) (xy -1.644049 0.365568) (xy -1.690601 0.392953) (xy -1.730862 0.416435)
-				(xy -1.780324 0.445504) (xy -1.824546 0.47212) (xy -1.861613 0.495081) (xy -1.889612 0.513184) (xy -1.906629 0.525223)
-				(xy -1.911043 0.52974) (xy -1.906742 0.53794) (xy -1.894566 0.559745) (xy -1.874964 0.594377) (xy -1.848386 0.641058)
-				(xy -1.815281 0.699007) (xy -1.7761 0.767446) (xy -1.731291 0.845595) (xy -1.681304 0.932677) (xy -1.626589 1.027911)
-				(xy -1.567595 1.130519) (xy -1.504771 1.239721) (xy -1.438568 1.354739) (xy -1.369435 1.474793)
-				(xy -1.297821 1.599105) (xy -1.224176 1.726895) (xy -1.14895 1.857385) (xy -1.072591 1.989794) (xy -0.99555 2.123345)
-				(xy -0.918276 2.257258) (xy -0.841219 2.390755) (xy -0.764828 2.523055) (xy -0.689553 2.653381)
-				(xy -0.615843 2.780952) (xy -0.544148 2.90499) (xy -0.474917 3.024717) (xy -0.4086 3.139352) (xy -0.345647 3.248117)
-				(xy -0.286506 3.350232) (xy -0.231629 3.444919) (xy -0.181463 3.531399) (xy -0.136459 3.608893)
-				(xy -0.097066 3.676621) (xy -0.063734 3.733804) (xy -0.036912 3.779664) (xy -0.01705 3.813422) (xy -0.004598 3.834297)
-				(xy -0.000004 3.841512) (xy 0 3.841513)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill solid)
-			(layer "B.SilkS")
-			(uuid "830e16eb-a4a2-4813-aada-513daebc8a37")
-		)
-	)
 	(footprint "TestPoint:TestPoint_Pad_1.5x1.5mm"
 		(locked yes)
 		(layer "B.Cu")
@@ -14743,7 +14499,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14767,7 +14523,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14779,9 +14535,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/341d146e-b505-4c60-b857-4dd45a9040d7")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.95 0.95)
 			(end 0.95 -0.95)
@@ -14916,7 +14674,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14940,7 +14698,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14952,9 +14710,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/a83d6ed9-6539-4538-b6f3-ca14613e254b")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.95 0.95)
 			(end 0.95 -0.95)
@@ -15089,7 +14849,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15113,7 +14873,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15125,9 +14885,11 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/1b2a30d9-3646-48a8-9c41-53d500cb77a1")
+		(sheetname "Root")
 		(sheetfile "ProPico.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.95 0.95)
 			(end 0.95 -0.95)
